@@ -360,7 +360,10 @@ PAGE_TEMPLATE = """
 <!DOCTYPE html>
 <html lang=\"en\">
 <head>
-<style>@font-face {font-family: "ModeSeven"; src: url("https://cdn.jsdelivr.net/gh/karlhorky/mode-seven-font@master/ModeSeven.ttf") format("truetype");}
+@font-face {
+  font-family: "Teletext";
+  src: url("/static/fonts/MODE7GX3.ttf") format("truetype");
+}
     .species-table{
       table-layout: fixed;
       width: 100%;
@@ -423,7 +426,7 @@ PAGE_TEMPLATE = """
       --green:#00ff87;
       --blue:#0033cc;
       --panel:#00134d;
-      --font-main:"ModeSeven", monospace;
+      --font-main:"Teletext", monospace;
       --font-size-base:13px;
       --font-size-title:40px;
       --font-size-heading:18px;
